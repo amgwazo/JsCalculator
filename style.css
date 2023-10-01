@@ -1,0 +1,31 @@
+/* 
+body{
+    font-size:500%;
+    font-weight: bolder;
+} */
+
+.myLight {
+    background-color: white;
+    color: black
+}
+
+.mydark {
+    background-color: black;
+    color: white
+}
+
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        display: none;
+    }
+
+    footer {
+        display: none;
+    }
+
+    .calculator{
+        margin-top: 4px;
+    }
+    
+}
